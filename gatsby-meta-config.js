@@ -1,19 +1,19 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `gorillaKim.github.io`,
+  description: `김고릴라 기록`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://gorillakim.github.io/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `gorillaKim/gorillaKim.github.io`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
-  ga: '0', // Google Analytics Tracking ID
+  ga: 'G-J969X7T5HM', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `김영환`,
     bio: {
-      role: `개발자`,
+      role: `프론트엔드 개발자`,
       description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
@@ -47,7 +47,7 @@ module.exports = {
         activity: '개인 블로그 개발 및 운영',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
+          github: 'https://github.com/gorillaKim',
           demo: 'https://www.zoomkoding.com',
         },
       },
