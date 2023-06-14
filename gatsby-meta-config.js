@@ -1,6 +1,6 @@
 module.exports = {
   title: `gorillaKim.github.io`,
-  description: `김고릴라 기록`,
+  description: `김고릴라의 일상 기록`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://gorillakim.github.io/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
