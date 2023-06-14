@@ -43,12 +43,34 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
+        date: '2020.06 ~ 2020.08',
+        activity: '매드업(Madup) 인턴',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/gorillaKim',
-          demo: 'https://www.zoomkoding.com',
+          // TODO: 매드업 인턴기 블로그 포스팅하기
+          // post: '/gatsby-starter-zoomkoding-introduction',
+          // github: 'https://github.com/gorillaKim',
+        },
+      },
+      {
+        date: '2020.09 ~ 2020.12',
+        activity: '구름(Goorm) 인턴',
+        links: {
+          // TODO: 구름 인턴기 블로그 포스팅하기
+          // post: '/gatsby-starter-zoomkoding-introduction',
+          // github: 'https://github.com/gorillaKim',
+        },
+      },
+      {
+        date: '2021.01 ~',
+        activity: '매드업(Madup) 입사',
+      },
+      {
+        date: '2021.09 ~',
+        activity: 'Tag-tools 개발',
+        links: {
+          // TODO: Tag-tools 개발기 블로그 포스팅하기
+          // post: '/gatsby-starter-zoomkoding-introduction',
+          // github: 'https://github.com/gorillaKim',
         },
       },
     ],
