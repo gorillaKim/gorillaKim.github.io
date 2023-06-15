@@ -1,6 +1,6 @@
 ---
 emoji: ✍️
-title: "TODO LIST"
+title: "TODO LIST - 2023 상반기 "
 date: '2023-06-11 23:00:00'
 author: gorillaKim
 tags: todo
@@ -10,7 +10,6 @@ categories: 할일
 ## 💻 개발관련
 
 ### 할일
-* 매드업 인턴기 블로그로 작성하기
 * 매드업 인턴기 블로그로 작성하기
 * 구름 인턴기 블로그로 작성하기
 * Tag-tools 개발기 블로그로 작성하기
