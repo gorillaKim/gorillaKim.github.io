@@ -9,7 +9,7 @@ function PageHeader({ siteTitle }) {
     <StaticQuery
       query={graphql`
         query SearchIndexQuery {
-          allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
+          allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
             edges {
               node {
                 frontmatter {
