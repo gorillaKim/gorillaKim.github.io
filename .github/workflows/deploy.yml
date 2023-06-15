@@ -1,12 +1,15 @@
 name: Gatsby Publish
 
 on:
+  pull_request:
+    branches:
+      - main
   push:
     branches:
       - master
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -14,3 +17,4 @@ jobs:
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
+          skip-publish: false
