@@ -43,6 +43,11 @@ useEffect(()=> {
   axios.put(`/reports/${reportId}`, apiProps)
 },[axios, reportId, apiProps]
 ```
+> 위의 코드에서는 apiProps 의 변경유무를 react가 알 수 없기 때문에 매 랜더시마다 axios.put(`/reports/${reportId}`, apiProps) 함수를 호출하게 됩니다.
+
+어째서 Object 형태의 데이터는 비교를 잘 못하는것 일까요?
+
+원인은 생각보다 간단합니다. React 에서는 **Shallow compare** 만 지원하기 때문인데요, 다시말해 **deep compare 을 필요로 하는 Object, Array 등**은 지원하지 않는다는말을 의미합니다. 이러한 이 때문에 **dependencies array** 에 Object나 Array를 담아주면 매 랜더시마다 동작하게 되는것이죠.
 
 ## 🤔 본론
 
@@ -55,5 +60,5 @@ useEffect(()=> {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTU2OTMwOF19
+eyJoaXN0b3J5IjpbMTgwMzM1Mjk2M119
 -->
