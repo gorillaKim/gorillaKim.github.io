@@ -3,8 +3,8 @@ emoji: ✍️
 title: "React.useEffect 와 dependencies Array"
 date: '2023-02-23 23:00:00'
 author: gorillaKim
-tags: react useEffect dependencies
-categories: 블로그 React Optimization
+tags: react useEffect dependencies optimization
+categories: 블로그 React
 ---
 
 ## 😃 서론
@@ -127,6 +127,6 @@ React 에서는 랜더링 최적화를 위해 useMemo, useCallback 등을 지원
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTc3NzA3MCw4NTcwMTI1NDYsLTE4MD
+eyJoaXN0b3J5IjpbMTIxODEzNTM4Miw4NTcwMTI1NDYsLTE4MD
 I0NTczODddfQ==
 -->
