@@ -4,7 +4,7 @@ title: "React.useEffect 와 dependencies Array"
 date: '2023-02-23 23:00:00'
 author: gorillaKim
 tags: react useEffect dependencies
-categories: react-optimization
+categories: React Optimization
 ---
 
 ## 😃 서론
@@ -127,5 +127,5 @@ React 에서는 랜더링 최적화를 위해 useMemo, useCallback 등을 지원
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDI0NTczODddfQ==
+eyJoaXN0b3J5IjpbODU3MDEyNTQ2LC0xODAyNDU3Mzg3XX0=
 -->
