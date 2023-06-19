@@ -69,7 +69,7 @@ useEffect(()=> {
 },[axios, reportId, ...Object.values(apiProps)]
 ```
 
-그렇다고 해서 위와같은 방법은 썩 맘에드는 방법은 아닐겁니다. 못한 방법입니다, apiProps 경우에는 내부 property 가 많지 않지만 api를 통해 받아온 Metric data는 몇십개가 될수도 있고 해당 데이터 내부의 각 Propperty가 Object가 아니라고 보장할 수 없을테니까요.
+그렇다고 해서 위와같은 방법은 썩 맘에드는 방법은 아닐겁니다.  api props 경우에는 내부 property 가 많지 않지만 api를 통해 받아온 Metric data는 몇백개의 Row data 가될수도 있고, 각 Row data 의 형태가  Object가 아니라고 보장할 수 없을테니까요.
 
 이처럼 쉽게 수정이 어려운 상황에서는 아래의 방법을 활용하면 해결이 가능합니다.
 
@@ -82,5 +82,5 @@ useEffect(()=> {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDkxOTc4NjFdfQ==
+eyJoaXN0b3J5IjpbMjAxODYyMzU2XX0=
 -->
