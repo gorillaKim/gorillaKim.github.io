@@ -91,7 +91,7 @@ useEffect(()=> {
 
 
 ### (2) useDeepCompareMemoize
-useDeepCompareEffect 는 이전값을 useRef로 메모라이징 하여 저장해두고 매 랜더시마다 해당시점의 값과 메모라이징 해둔 값을 깊은 비교를하여 달라졌을때만 값을 업데이트 하도록 하는 방법입니다.
+**useDeepCompareEffect** 는 이전값을 useRef로 메모이제이션 하여 저장해두고 매 랜더시마다 해당시점의 값과 저장해 둔 값을 깊은 비교를하여 달라졌을때만 값이 업데이트 되도록 하는 훅입니다.
 
 ```typescript
 import { isEqual } from 'lodash'
@@ -119,5 +119,5 @@ function useDeepCompareMemoize<Type>(value: Type): Type {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTYzOTQwMV19
+eyJoaXN0b3J5IjpbLTYyMjU3ODQzM119
 -->
