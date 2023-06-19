@@ -74,9 +74,7 @@ useEffect(()=> {
 제일 좋은 방법은 useEffect를 사용하지 않는 방식으로 로직을 개선하는 것이겠지만, 늘 그렇듯 다양한 외부환경적 요소에 의해 useEffect를 써야만 하는 불가피한 상황들이 생겨날겁니다. 이럴때는 아래의 방법이 도움이 죌 수 있습니다.
 
 ### (1) JSON.stringify()
-JSON.stringify() 메서드는 Object 형 데이터를 문자열로 바꿔주는 기능을 수행합니다. 이를 통해 변환된 문자열을 dependencies array 에 담아주게되면 리액트가 그 변화를 감지할 수 있게 됩니다.
-
-하지만, 너무 많은 데이터를 문자열화 할 경우에는 성능에 문제가 될 수 있음으로 주의하셔야 합니다.
+**JSON.stringify()** 메서드는 Object 형 데이터를 문자열로 바꿔주는 기능을 수행합니다. 이를 통해 변환된 문자열을 dependencies array 에 담아주게되면 리액트가 그 변화를 감지할 수 있게 됩니다.
 
 ```typescript
 const [reportId, setReportId] = useEffect<number>(1)
@@ -86,10 +84,31 @@ useEffect(()=> {
   // reportId가 달라질때마다 호출 됨
   // apiProps 내부 값들이 각각 달라질때마다 호출 됨
   axios.put(`/reports/${reportId}`, apiProps)
-},[axios, reportId, JSON.string(apiProps)]
+},[axios, reportId, JSON.stringify(apiProps)]
 ```
 
+하지만, 너무 많은 데이터를 문자열화 할 경우에는 성능에 문제가 될 수 있음으로 주의하셔야 합니다.
+
+
 ### (2) useDeepCompareMemoize
+useDeepCompareEffect 는 이전값을 useRef로 메모라이징 하여 저장해두고 매 랜더시마다 해당시점의 값과 메모라이징 해둔 값을 깊은 비교를하여 달라졌을때만 값을 업데이트 하도록 하는 방법입니다.
+
+```typescript
+import { isEqual } from 'lodash'
+
+function useDeepCompareMemoize<Type>(value: Type): Type {
+  const ref = useRef(value)
+  const signalRef = useRef(0)
+
+  if (!isEqual(value, ref.current)) {
+    ref.current = value
+    signalRef.current += 1
+  }
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  return useMemo(() => ref.current, [signalRef.current])
+}
+```
 
 ## 💡 결론 
 
@@ -100,5 +119,5 @@ useEffect(()=> {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwMDQ3NjM0XX0=
+eyJoaXN0b3J5IjpbLTE4OTYzOTQwMV19
 -->
