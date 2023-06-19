@@ -4,7 +4,7 @@ title: "MSW - 더 나이스한 목킹을 위한 고민"
 date: '2023-06-11 23:00:00'
 author: gorillaKim
 tags: blog msw 목업 테스트
-categories: 블로그 라이브러리
+categories: blog lib
 ---
 
 ## 🤔 고민
@@ -443,3 +443,6 @@ Mock Service Worker(MSW)를 도입하면서 가장 좋았던 경험 중 하나�
 ```toc
 
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjkwMjIyMDAyXX0=
+-->
