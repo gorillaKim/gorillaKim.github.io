@@ -109,15 +109,19 @@ function useDeepCompareMemoize<Type>(value: Type): Type {
   return useMemo(() => ref.current, [signalRef.current])
 }
 ```
+해당 훅은 메모이제이션 이라는 최적화 훅을 사용합니다. 해당 훅은 데이터를 메모리에 얹어두고 기억해서 사용하는 방법인데요, 메모리에 얹어두고 사용하기 때문에 과도한 사용시 메모리리 공간을 많이 찾성능에 문제가 될 수 있습니다.
 
 ## 💡 결론 
 
+React 에서는 랜더링 최적화를 위해 useMemo, useCallback 등을 지원합니다. 하지만 이 훅들도 useEffect와 마찬가지로 deep equal(deep compare) 를 지원하지 않습니다. 때문에 이러한 상황에선 useDeepCompareEffect 사용이 대안이 될수도 있습니다.
 
-한번도 수정합니다.
+하지만, useMemo 도 useCallback도 랜더링 최적화 과정에서 근본적인 해결이 아닌것처럼 useDeepCompareEffect 를 사용하는것도 근본적인 해결책은 아닙니다. 때문에 로직을 개선하여 useDeepCompareEffect를 사용해야하는 상황을 만들지 않는것이 최선책이라 볼수 있습니다.
+
+이러한 훅들은 임시방편 돌파구를 제공하기 때문에 편리해서 자꾸 손이 가게 됩니다. 하지만, useDeepCompareEffect만 보면 동일한 데이터를 메모리에 저장해야하기 때문에 메모리 낭비가 생길 수 있고, 내부에서 매 랜더시마다 비교 로직이 수행되기 때문에 무분별한 사용시 사이트의 성능을 저해시킬 수 있다는 치명적인 단점이 있습니다. 때문에 상황을 잘 판단하여서 사용하는것을 권장드리며 글을 마칩니다 : )
 
 ```toc
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjU3ODQzM119
+eyJoaXN0b3J5IjpbMjA3NzU5NTc3OF19
 -->
