@@ -56,7 +56,22 @@ useEffect(()=> {
 
 가장 단순하면서 나이스한 방법은  _**dependencies array** 에 Shallow compare 가 가능한 Type의 값들만 담아주는것입니다._  
 
-대표적인 예시로 **Object 형태의 상태값을 더 잘게 쪼개어 숫자와 문자형태로 분리**하거나, 문자열 배열등을 비구조 할당하여 **dependencies array** 에 담아주는 방법등 여러방법이 있습니다..
+대표적인 예시로 **Object 형태의 상태값을 더 잘게 쪼개어 숫자와 문자형태로 분리**하거나, **문자열 배열등을 비구조 할당**하여 **dependencies array** 에 담아주는 방법등 여러방법이 있습니다.
+
+```typescript
+const [reportId, setReportId] = useEffect<number>(1)
+const [apiProps, setApiProps] = useEffect<{name: string}>({name: ''})
+
+useEffect(()=> {
+  // reportId가 달라질때마다 호출 됨
+  // apiProps 내부 값들이 각각 달라질때마다 호출 됨
+  axios.put(`/reports/${reportId}`, apiProps)
+},[axios, reportId, ...Object.values(apiProps)]
+```
+
+그렇다고 해서 위와같은 방법은 썩 맘에드는 방법은 아닐겁니다. 못한 방법입니다, apiProps 경우에는 내부 property 가 많지 않지만 api를 통해 받아온 Metric data는 몇십개가 될수도 있고 해당 데이터 내부의 각 Propperty가 Object가 아니라고 보장할 수 없을테니까요.
+
+이처럼 쉽게 수정이 어려운 상황에서는 아래의 방법을 활용하면 해결이 가능합니다.
 
 ## 💡 결론 
 
@@ -67,5 +82,5 @@ useEffect(()=> {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDc0NTY2MV19
+eyJoaXN0b3J5IjpbLTEzNDkxOTc4NjFdfQ==
 -->
