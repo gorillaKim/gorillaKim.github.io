@@ -12,6 +12,8 @@ React를 사용하다 보면 특정 컴포넌트가 화면에 그려질때 API�
 
 이렇듯 useEffect는 특정한 컴포넌트가 랜더될때(그려질 때) 특수한 로직을 처리하기 위해 사용되는 React의 공식 hook중 하나입니다. useEffect는 첫 랜더시에만 특정 로직이 동작하게 할 수도 있지만 dependencies array 를 통해 특정 값들이 변화되었을때만 특정 로직이 동작하도록 할수도 있습니다.
 
+<br/>
+
 ```typescript
 const [reportId, setReportId] = useEffect<number>(1)
 
@@ -20,6 +22,8 @@ useEffect(()=> {
   axios.get(`/reports/${reportId}`)
 },[axios, reportId])
 ```
+
+<br/>
 
 이처럼 의도치 않은 상황에 변화를 만드는 함수를 Side effect function 이라고 하는데요, 공식적으로 제공되는 hook들 중에는 useEffect 말고도 useMemo, useCallback 등이 있습니다.
 
@@ -33,6 +37,8 @@ useEffect(()=> {
 
 하지만, **Object, Array** 와 같은 데이터 형들은 React가 비교를 못하고 같은 값임에도 변경 되었다고 인식합니다.
 
+<br/>
+
 ```typescript
 const [reportId, setReportId] = useEffect<number>(1)
 const [apiProps, setApiProps] = useEffect<{name: string}>({name: ''})
@@ -44,6 +50,8 @@ useEffect(()=> {
 },[axios, reportId, apiProps]
 ```
 > 위의 코드에서는 apiProps 의 변경유무를 react가 알 수 없기 때문에 매 랜더시마다 axios.put(`/reports/${reportId}`, apiProps) 함수를 호출하게 됩니다.
+
+<br/>
 
 **어째서 Object 형태의 데이터는 비교를 잘 못하는것 일까요?**
 
@@ -78,6 +86,8 @@ useEffect(()=> {
 
 제일 좋은 방법은 useEffect를 사용하지 않는 방식으로 로직을 개선하는 것이겠지만, 늘 그렇듯 다양한 외부환경적 요소에 의해 useEffect를 써야만 하는 불가피한 상황들이 생겨날겁니다. 이럴때는 아래의 방법이 도움이 죌 수 있습니다.
 
+<br/>
+
 ### (1) JSON.stringify()
 **JSON.stringify()** 메서드는 Object 형 데이터를 문자열로 바꿔주는 기능을 수행합니다. 이를 통해 변환된 문자열을 dependencies array 에 담아주게되면 리액트가 그 변화를 감지할 수 있게 됩니다.
 
@@ -94,6 +104,7 @@ useEffect(()=> {
 
 하지만, 너무 많은 데이터를 문자열화 할 경우에는 성능에 문제가 될 수 있음으로 주의하셔야 합니다.
 
+<br/>
 
 ### (2) useDeepCompareMemoize
 **useDeepCompareEffect** 는 이전값을 useRef로 메모이제이션 하여 저장해두고 매 랜더시마다 해당시점의 값과 저장해 둔 값을 깊은 비교를하여 달라졌을때만 값이 업데이트 되도록 하는 훅입니다.
@@ -120,6 +131,9 @@ function useDeepCompareMemoize<Type>(value: Type): Type {
 
 이러한 비교 작업 또한 성능에 영향을 주는데요, 때로는 랜더링 최적화를 위한 비용이 재랜더로 발생한 비용보다 커질 수 있으니 해당 훅을 사용시 주의하셔야 합니다.
 
+<br/>
+<br/>
+
 ## 💡 결론 
 
 React 에서는 랜더링 최적화를 위해 useMemo, useCallback 등을 지원합니다. 하지만 이 훅들도 useEffect와 마찬가지로 deep equal(deep compare) 를 지원하지 않습니다. 때문에 이러한 상황에선 **useDeepCompareEffect** 사용이 대안이 될수도 있습니다.
@@ -132,6 +146,6 @@ React 에서는 랜더링 최적화를 위해 useMemo, useCallback 등을 지원
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyNjk2MDQ0LDEyMTgxMzUzODIsODU3MD
-EyNTQ2LC0xODAyNDU3Mzg3XX0=
+eyJoaXN0b3J5IjpbLTU4MTYxNDQ5NCwxMjE4MTM1MzgyLDg1Nz
+AxMjU0NiwtMTgwMjQ1NzM4N119
 -->
