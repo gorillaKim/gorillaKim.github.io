@@ -109,7 +109,11 @@ function useDeepCompareMemoize<Type>(value: Type): Type {
   return useMemo(() => ref.current, [signalRef.current])
 }
 ```
-해당 훅은 메모이제이션 이라는 최적화 훅을 사용합니다. 해당 훅은 데이터를 메모리에 얹어두고 기억해서 사용하는 방법인데요, 메모리에 얹어두고 사용하기 때문에 과도한 사용시 메모리리 공간을 많이 찾성능에 문제가 될 수 있습니다.
+해당 훅은 메모이제이션 이라는 최적화 훅을 사용합니다. 해당 훅은 데이터를 메모리에 얹어두고 기억해서 사용하는 방법인데요, 메모리에 얹어두고 사용하기 때문에 과도한 사용시 메모리리 공간을 많이 차지하여 성능에 문제가 될 수 있습니다.
+
+위 코드에서 useMemo 를 보면 dependecies array 가 있는것을 확인이 가능한데요, 이는 useMemo 또한 내부상태를 비교하여 최적화 하고 있음을 알 수 있습니다.
+
+이러한 비교 작업 또
 
 ## 💡 결론 
 
@@ -123,5 +127,5 @@ React 에서는 랜더링 최적화를 위해 useMemo, useCallback 등을 지원
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzU5NTc3OF19
+eyJoaXN0b3J5IjpbMTUwMjA2OTYyNl19
 -->
