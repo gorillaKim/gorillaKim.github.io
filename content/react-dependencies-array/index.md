@@ -49,6 +49,11 @@ useEffect(()=> {
 
 원인은 생각보다 간단합니다. React 에서는 **Shallow compare** 만 지원하기 때문인데요, 다시말해 **deep compare 을 필요로 하는 Object, Array 등**은 지원하지 않는다는말을 의미합니다. 이러한 이유 때문에 **dependencies array** 에 Object나 Array를 담아주면 매 랜더시마다 전 후결과가 다르다고 판단하여 내부 로직을 수행하게 되는것이죠.
 
+
+<br/>
+<br/>
+
+
 ## 🤔 본론
 사실 React를 개발하다보면 변수를 Object 형태로 관리하는 상황들이 많이 발생합니다. 예를들어 api 호출을 통해 받아온 Metric 형태 데이터나, 유저정보 등이 있을수 있고 또 api 호출을 위해 담아줘야 하는 props 등이 있습니다.
 
@@ -127,6 +132,6 @@ React 에서는 랜더링 최적화를 위해 useMemo, useCallback 등을 지원
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODEzNTM4Miw4NTcwMTI1NDYsLTE4MD
-I0NTczODddfQ==
+eyJoaXN0b3J5IjpbOTUyNjk2MDQ0LDEyMTgxMzUzODIsODU3MD
+EyNTQ2LC0xODAyNDU3Mzg3XX0=
 -->
