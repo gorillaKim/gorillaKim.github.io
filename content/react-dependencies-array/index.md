@@ -113,11 +113,11 @@ function useDeepCompareMemoize<Type>(value: Type): Type {
 
 위 코드에서 useMemo 를 보면 dependecies array 가 있는것을 확인이 가능한데요, 이는 useMemo 또한 내부상태를 비교하여 최적화 하고 있음을 알 수 있습니다.
 
-이러한 비교 작업 또
+이러한 비교 작업 또한 성능에 영향을 주는데요, 때로는 랜더링 최적화를 위한 비용이 재랜더로 발생한 비용보다 커질 수 있으니 해당 훅을 사용시 주의하셔야 합니다.
 
 ## 💡 결론 
 
-React 에서는 랜더링 최적화를 위해 useMemo, useCallback 등을 지원합니다. 하지만 이 훅들도 useEffect와 마찬가지로 deep equal(deep compare) 를 지원하지 않습니다. 때문에 이러한 상황에선 useDeepCompareEffect 사용이 대안이 될수도 있습니다.
+React 에서는 랜더링 최적화를 위해 useMemo, useCallback 등을 지원합니다. 하지만 이 훅들도 useEffect와 마찬가지로 deep equal(deep compare) 를 지원하지 않습니다. 때문에 이러한 상황에선 **useDeepCompareEffect** 사용이 대안이 될수도 있습니다.
 
 하지만, useMemo 도 useCallback도 랜더링 최적화 과정에서 근본적인 해결이 아닌것처럼 useDeepCompareEffect 를 사용하는것도 근본적인 해결책은 아닙니다. 때문에 로직을 개선하여 useDeepCompareEffect를 사용해야하는 상황을 만들지 않는것이 최선책이라 볼수 있습니다.
 
@@ -127,5 +127,5 @@ React 에서는 랜더링 최적화를 위해 useMemo, useCallback 등을 지원
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjA2OTYyNl19
+eyJoaXN0b3J5IjpbLTE4MDI0NTczODddfQ==
 -->
