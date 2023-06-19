@@ -29,9 +29,20 @@ useEffect(()=> {
 
 위의 코드 예시에서는 우리가 **dependencies array** 에 Type 이 숫자형인 reportId를 담아준것을 예로들 수 있습니다. 
 
-이때 우리가 중요하게 봐야하는 점은 **dependencies array** 에 담아주는 변이처럼 문자형, 숫자형 과 같은 값들에 대해서는 React 가 정확히 비교하여 랜더링을 해줍니다.
+이때 우리가 중요하게 봐야하는 점은 **dependencies array** 에 담아주는 변수들의 타입입니다. 앞선 예제의 reportId처럼  문자형, 숫자형 과 같은 값들에 대해서는 React 가 전 후를 비교하여 변경된 시점에만 내부 로직을 수행해줍니다.
 
-하지만, Object, Array 와 같은 데이터 형들은 React가 비교를 못하고 같은 값임에도 변경 되었다고 인식합니다.
+하지만, **Object, Array** 와 같은 데이터 형들은 React가 비교를 못하고 같은 값임에도 변경 되었다고 인식합니다.
+
+```typescript
+const [reportId, setReportId] = useEffect<number>(1)
+const [apiProps, setApiProps] = useEffect<{name: string}>({name: ''})
+
+useEffect(()=> {
+  // reportId가 달라질때마다 호출 됨
+  // apiProps 변경 유무 상관없이 매 랜더시마다 호출 됨
+  axios.put(`/reports/${reportId}`, apiProps)
+},[axios, reportId, apiProps]
+```
 
 ## 🤔 본론
 
@@ -44,5 +55,5 @@ useEffect(()=> {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTU4NzA1N119
+eyJoaXN0b3J5IjpbMTM5OTU2OTMwOF19
 -->
