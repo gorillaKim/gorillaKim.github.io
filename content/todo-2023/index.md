@@ -25,6 +25,8 @@ categories: 할일
 
 ### 개발 아이디어
 * Flutter로 간단한 토이프로젝트를 해볼까나?
+* 자주 사용하는 Es lint config 만들기
+  * [참고링크](https://tech.kakao.com/2019/12/05/make-better-use-of-eslint/) 
 
 ---
 
@@ -38,3 +40,6 @@ categories: 할일
 ```toc
 
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ2NzU1MTM0Ml19
+-->
