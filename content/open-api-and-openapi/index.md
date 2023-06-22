@@ -39,16 +39,20 @@ categories: 블로그
 
 ## 3️⃣ TMI
 
-### Q. OpenAPI는 Swagger Specification이라고도 알려져 있는데요, OpenAPI 와 Swagger 는 어떤 관계일까요?
+### 🤔  OpenAPI는 Swagger Specification이라고도 알려져 있는데요, OpenAPI 와 Swagger 는 어떤 관계일까요?
 
 사실 Swagger는 OpenAPI Specification의 이전 이름이었습니다. Swagger는 2011년에 Wordnik에서 개발되었으며, RESTful API를 설계, 문서화 및 테스트하기 위한 오픈 소스 도구로서 널리 사용되었습니다.
 
 그러나 2015년에 Swagger는 SmartBear Software의 협력으로 **OpenAPI Initiative (OAI)** 에 기여하게 되었으며, 이때 기존의 Swagger 기반으로 만들어진것이 OpenAPI Specification 입니다.
 
-즉, 어떻게보면 OpenAPI Specification은 Swagger Specification의 후속 버전이라고도 볼 수 있겠습니다. 🤔
+즉, 어떻게보면 OpenAPI Specification은 Swagger Specification의 후속 버전이라고도 볼 수 있겠습니다. 
+
+<br>
+<br>
+
 ```toc
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDM3NzUxN119
+eyJoaXN0b3J5IjpbLTEzODU5NTg1NjJdfQ==
 -->
