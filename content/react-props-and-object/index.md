@@ -75,7 +75,7 @@ const object = { name: "홍길동" } // 생성된 객체가 저장(할당) 되�
 
 <br/>
 
-```
+```jsx
 const Container = () => {
   return (
     <Child
@@ -153,7 +153,7 @@ const Container = () => {
 
 <br/>
 
-```
+```jsx
 const Container = () => {
   const info = {
     name: "홍길동",
@@ -218,5 +218,5 @@ const Container = () => {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjY5OTgyMV19
+eyJoaXN0b3J5IjpbMjgyMjUzMjUzXX0=
 -->
