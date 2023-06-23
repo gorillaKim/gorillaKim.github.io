@@ -13,6 +13,7 @@ categories: 할일
 * 매드업 인턴기 블로그로 작성하기
 * 구름 인턴기 블로그로 작성하기
 * Tag-tools 개발기 블로그로 작성하기
+* OpenAPI 개녕
 * Openapi-tools 활용기 블로그로 작성하기
 * 독서감상 블로그로 작성하기
 * 일상관련(취미) 블로그로 작성하기
@@ -42,5 +43,6 @@ categories: 할일
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0NzM0NTM2LC00Njc1NTEzNDJdfQ==
+eyJoaXN0b3J5IjpbNzMwMTYxOTQ1LDY2NDczNDUzNiwtNDY3NT
+UxMzQyXX0=
 -->
