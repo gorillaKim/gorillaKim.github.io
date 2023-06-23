@@ -3,7 +3,7 @@ emoji: ✍️
 title: "Open API 와 OpenAPI 란?"
 date: '2023-06-22 23:00:00'
 author: gorillaKim
-tags: openapi open-api oas
+tags: openapi open-api oas swagger
 categories: 블로그
 ---
 
@@ -56,6 +56,6 @@ categories: 블로그
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTYzMzM0MiwtMTU2NTE5OTA5LC0xMz
-g1OTU4NTYyXX0=
+eyJoaXN0b3J5IjpbMjQ0MTAwMTQwLC0xNTY1MTk5MDksLTEzOD
+U5NTg1NjJdfQ==
 -->
