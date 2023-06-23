@@ -16,6 +16,7 @@ categories: 할일
 * Openapi-tools 활용기 블로그로 작성하기
 * 독서감상 블로그로 작성하기
 * 일상관련(취미) 블로그로 작성하기
+* node fetch api 를 이용한 데이터 streaming 방법정리
 
 ### 공부할것
 * 서버로부터 비동기 데이터를 프론트에서 잘 받아 활용하는 방법
@@ -41,5 +42,5 @@ categories: 할일
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NzU1MTM0Ml19
+eyJoaXN0b3J5IjpbNjY0NzM0NTM2LC00Njc1NTEzNDJdfQ==
 -->
