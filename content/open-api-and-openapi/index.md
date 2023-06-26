@@ -9,6 +9,8 @@ categories: 블로그 알쓸코잡
 
 > 📚 **알쓸코잡 : 알아두면 쓸모있는 코딩 잡학지식!**
 
+<br>
+
 ## 1️⃣ 서론
 
 개발을 하면서 Open API 라는 용어를 많이 접하게 됩니다. 최근에 비슷하지만 다른 의미를 갖는 OpenAPI 라는 용어를 알게 되었는데요. 이번글에서는 이 둘의 차이점이 무엇인지를 이야기 해볼까 합니다.
@@ -58,6 +60,6 @@ categories: 블로그 알쓸코잡
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODA0OTA3MCwyNDQxMDAxNDAsLTE1Nj
-UxOTkwOSwtMTM4NTk1ODU2Ml19
+eyJoaXN0b3J5IjpbLTE1ODc1OTQzNjQsMTQ3ODA0OTA3MCwyND
+QxMDAxNDAsLTE1NjUxOTkwOSwtMTM4NTk1ODU2Ml19
 -->
