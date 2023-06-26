@@ -4,8 +4,10 @@ title: "Open API 와 OpenAPI 란?"
 date: '2023-06-22 23:00:00'
 author: gorillaKim
 tags: openapi open-api oas swagger
-categories: 블로그
+categories: 블로그 알쓸코잡
 ---
+
+> 알쓸코잡 : 알아두면 쓸모있는 코딩 잡학지식!
 
 ## 1️⃣ 서론
 
@@ -56,6 +58,6 @@ categories: 블로그
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0MTAwMTQwLC0xNTY1MTk5MDksLTEzOD
-U5NTg1NjJdfQ==
+eyJoaXN0b3J5IjpbLTgwNTA1NTMwNSwyNDQxMDAxNDAsLTE1Nj
+UxOTkwOSwtMTM4NTk1ODU2Ml19
 -->
