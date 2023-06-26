@@ -7,7 +7,7 @@ tags: openapi open-api oas swagger
 categories: 블로그 알쓸코잡
 ---
 
-> 알쓸코잡 : 알아두면 쓸모있는 코딩 잡학지식!
+> 📚 알쓸코잡 : 알아두면 쓸모있는 코딩 잡학지식!
 
 ## 1️⃣ 서론
 
@@ -58,6 +58,6 @@ categories: 블로그 알쓸코잡
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTA1NTMwNSwyNDQxMDAxNDAsLTE1Nj
-UxOTkwOSwtMTM4NTk1ODU2Ml19
+eyJoaXN0b3J5IjpbLTE4MTMwODI3MDYsMjQ0MTAwMTQwLC0xNT
+Y1MTk5MDksLTEzODU5NTg1NjJdfQ==
 -->
