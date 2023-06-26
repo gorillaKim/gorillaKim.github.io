@@ -62,7 +62,7 @@ module.exports = {
       },
       {
         date: '2021.01 ~',
-        activity: '매드업(Madup) 입사',
+        activity: '매드업(Madup) Manager',
       },
       {
         date: '2021.09 ~',
@@ -72,6 +72,10 @@ module.exports = {
           // post: '/gatsby-starter-zoomkoding-introduction',
           // github: 'https://github.com/gorillaKim',
         },
+      },
+      {
+        date: '2023.07 ~',
+        activity: '매드업(Madup) Advanced',
       },
     ],
 
