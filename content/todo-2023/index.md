@@ -14,7 +14,7 @@ categories: 할일
 * 구름 인턴기 블로그로 작성하기
 * Tag-tools 개발기 블로그로 작성하기
 * ~~OpenAPI 개념설명 블로그 작성하기~~
-* OpenAPI generator 개념설명 블로그 작성하기
+* ~~OpenAPI generator 개념설명 블로그 작성하기~~
 * Openapi-tools 활용기 블로그로 작성하기
 * 독서감상 블로그로 작성하기
 * 일상관련(취미) 블로그로 작성하기
@@ -44,6 +44,6 @@ categories: 할일
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTQ4MzE2Myw2NjQ3MzQ1MzYsLTQ2Nz
-U1MTM0Ml19
+eyJoaXN0b3J5IjpbLTI1MTI2MTI4NSwxOTY1NDgzMTYzLDY2ND
+czNDUzNiwtNDY3NTUxMzQyXX0=
 -->
