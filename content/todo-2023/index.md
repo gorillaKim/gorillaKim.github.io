@@ -39,13 +39,13 @@ categories: 할일
 * [어른의 대화법](https://www.yes24.com/Product/Goods/105789071)
 * [역행자](https://www.yes24.com/Product/Goods/119120517)
 * [익스트림 프로그래밍](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=671372)
-* 
+* [함께 자라기](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=175977462)
 
 
 ```toc
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTE4MjY0NCwtMjUxMjYxMjg1LDE5Nj
+eyJoaXN0b3J5IjpbLTc3MTM4Mjc1MywtMjUxMjYxMjg1LDE5Nj
 U0ODMxNjMsNjY0NzM0NTM2LC00Njc1NTEzNDJdfQ==
 -->
