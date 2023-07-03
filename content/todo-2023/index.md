@@ -38,12 +38,14 @@ categories: 할일
 ### 읽고싶은 도서목록
 * [어른의 대화법](https://www.yes24.com/Product/Goods/105789071)
 * [역행자](https://www.yes24.com/Product/Goods/119120517)
+* [익스트림 프로그래밍](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=671372)
+* 
 
 
 ```toc
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTI2MTI4NSwxOTY1NDgzMTYzLDY2ND
-czNDUzNiwtNDY3NTUxMzQyXX0=
+eyJoaXN0b3J5IjpbMTY2OTE4MjY0NCwtMjUxMjYxMjg1LDE5Nj
+U0ODMxNjMsNjY0NzM0NTM2LC00Njc1NTEzNDJdfQ==
 -->
