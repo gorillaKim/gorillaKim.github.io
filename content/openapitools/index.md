@@ -1,7 +1,7 @@
 ---
 emoji: ✍️
 title: "openapitools.json 활용편"
-date: '2023-06-27 23:00:00'
+date: '2023-07-05 23:00:00'
 author: gorillaKim
 tags: openapi open-api oas swagger openapi-generator-cli openapi-generator openapitools
 categories: 블로그 알쓸코잡 라이브러리
@@ -207,6 +207,6 @@ OpenAPI Tools은 API 개발과 관련된 작업을 보다 쉽게 처리하기 �
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjEyMDUyNCw3Mzc2MzgzNjgsOTIwNz
-U0NTg5XX0=
+eyJoaXN0b3J5IjpbOTgxMjU0MjYxLDczNzYzODM2OCw5MjA3NT
+Q1ODldfQ==
 -->
