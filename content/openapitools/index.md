@@ -131,10 +131,6 @@ OpenAPI Tools은 API 개발과 관련된 작업을 보다 쉽게 처리하기 �
 }
 ```
 
-|  |  |
-|--|--|
-|  |  |
-
 
 <br>
 <br>
@@ -156,5 +152,5 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjg2NjYxMiw5MjA3NTQ1ODldfQ==
+eyJoaXN0b3J5IjpbNzM3NjM4MzY4LDkyMDc1NDU4OV19
 -->
