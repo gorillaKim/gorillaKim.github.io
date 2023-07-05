@@ -131,12 +131,23 @@ OpenAPI Tools은 API 개발과 관련된 작업을 보다 쉽게 처리하기 �
 }
 ```
 
+<br>
+<br>
+
 ```javascript
 {
 	/* 필수값이 아닙니다. 
-	* 
+	* 사용할 `openapi-generator` 버전을 의미합니다.
+	* 해당 옵션 설정 후 실행시 필요한 버전을 자동으로 다운받아 사용됩니다.
 	*/
-	version: "ex) 4.3.1" 
+	version: "ex) 4.3.1", 
+	
+	/* 필수값이 아닙니다. 
+	* `openapi-generator (.jar)` 파일이 저장될 경로
+	*/
+	storageDir: "ex) ~/my/custom/storage/dir", 
+
+	generators
 }
 ```
 
@@ -160,6 +171,6 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDYwOTQ0Niw3Mzc2MzgzNjgsOTIwNz
+eyJoaXN0b3J5IjpbMTI4MzMyOTM1MCw3Mzc2MzgzNjgsOTIwNz
 U0NTg5XX0=
 -->
