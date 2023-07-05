@@ -202,23 +202,11 @@ OpenAPI Tools은 API 개발과 관련된 작업을 보다 쉽게 처리하기 �
 <br>
 <br>
 
-## 🔖 예고편
-
-_“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들을 CLI 명령어로 전달하지 않고 OpenAPI generator 를 더 쉽고 잘 활용하는 방법이 없을까요?”_
-
-네, 있습니다. 심지어 매번 openapi-generator 를 설치하지 않아도 되는 방법이 있습니다!
-
-바로 가시죠! openapitools.json 활용편!
-
-> 제작중입니다.
-
-<br>
-<br>
 
 ```toc
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTUxMzgxOCw3Mzc2MzgzNjgsOTIwNz
+eyJoaXN0b3J5IjpbLTkwNjEyMDUyNCw3Mzc2MzgzNjgsOTIwNz
 U0NTg5XX0=
 -->
