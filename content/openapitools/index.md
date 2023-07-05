@@ -32,8 +32,29 @@ categories: 블로그 알쓸코잡 라이브러리
 
 openapi-generator 프로그램은 지속적으로 개선되고 있는 프로젝트인데요, 이 때문에 버전에 따라 Openapi spec을 해석하는 방식또한 달라지고 있습니다.
 
-이러한 문제 때문에 `@openapitools/openapi-generator-cli` 버전 2.xx 이상부터는 openapi-generator 버전관리 기능이 패키지에 추가가 되었습니다.
+이러한 문제 때문에 `@openapitools/openapi-generator-cli` 버전 2.xx 이상부터는 `openapi-generator` 버전관리 기능이 패키지에 추가가 되었습니다.
 
+![enter image description here](https://github.com/OpenAPITools/openapi-generator-cli/blob/master/img/vm.gif?raw=true)
+
+아래의 명령어를 통해 openapi-generator 패키지 조회가 가능합니다.
+
+```shell
+// Openapi-generator 패키지 리스트 조회
+npx openapi-generator-cli version-manager list
+
+// Openapi-generator 안정화 버전 패키지 리스트 조회
+npx openapi-generator-cli version-manager list stable
+```
+
+그리고 아래의 명령어를 통해 원하는 버전의 `openapi-generator` 를 설치할 수 있으며, 설치 시 `openapitools.json` 라는 이름의 파일 한개가 생성된것을 확인하실 수 있습니다.
+
+```shell
+// 가장 최신 버전으로 셋팅
+npx openapi-generator-cli version-manager set latest
+
+// 4.xx 때 안정된 버전으로 셋팅
+npx openapi-generator-cli version-manager set 4 stable
+```
 
 <br>
 <br>
@@ -94,5 +115,5 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwNzU0NTg5XX0=
+eyJoaXN0b3J5IjpbLTEwNTA3MjgwNDIsOTIwNzU0NTg5XX0=
 -->
