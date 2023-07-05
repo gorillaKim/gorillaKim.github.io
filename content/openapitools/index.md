@@ -102,39 +102,39 @@ OpenAPI Tools은 API 개발과 관련된 작업을 보다 쉽게 처리하기 �
 
 `openapitools.json` 은 결국 `openapi-generator` 를 조작하기 위한 설정 파일로서, `openapi-generator-cli` 에 구성된 다양한 옵션들을 활용하고 있습니다. 따라서 우리는 [**openapi-generator의 공식 문서**](https://openapi-generator.tech/docs/usage/#generate) 와 [**openapi-generator-cli-shcema 파일**](https://github.com/OpenAPITools/openapi-generator-cli/blob/master/apps/generator-cli/src/config.schema.json) 참고하여 `openapitools.json` 을 최대한 활용하는 방법을 찾아냈습니다.
 
-이 스터디를 통해 openapitools.json의 다양한 옵션들과 그 활용 방법에 대한 이해를 높일 수 있었습니다. 더 나아가 API 개발을 보다 효율적으로 수행할 수 있도록 예제 코드와 함께 옵션들에 대한 상세한 설명을 블로그에 공유하고자 합니다. 이를 통해 개발자들이 openapitools.json을 더욱 아름답게 활용할 수 있도록 돕고자 합니다.
+이 스터디를 통해 `openapitools.json` 의 다양한 옵션들과 그 활용 방법에 대한 이해를 높일 수 있었습니다. 더 나아가 API 개발을 보다 효율적으로 수행할 수 있도록 예제 코드와 함께 옵션들에 대한 상세한 설명을 블로그에 공유하고자 합니다. 이를 통해 개발자들이 `openapitools.json` 을 더욱 아름답게 활용할 수 있도록 돕고자 합니다.
 
 <br>
 <br>
 
-## 4️⃣ What is different?
 
-“그래서 OpenAPI generator 와 OpenAPI generator cli 가 뭔차인데?” 라고 생각하시는 분들이 계실것 같습니다.
+## 4️⃣ openapitools.json 사용법!
 
-이 둘의 가장 큰 차이점은 앞서 설명된것처럼 해당 도구들이 사용되는 환경에 있습니다. **OpenAPI generator** 는 자바로 만들어진 독립적으로 실행가능한 도구입니다. 이 때문에 일부 Node 와 같은 개발환경에서 활용이 불가능하다는 단점이 있습니다. 하지만 **OpenAPI-generator-cli** 는 cli 명령어를 통해 OpenAPI generator 를 실행시키는 것이 가능하기 때문에 Node 와 같은 개발 환경에서도 OpenAPI 스펙 을 통한 코드생성 및 활용이 가능합니다.
+> :warning: 읽기전에 필독!,
+> 
+> 아래 해당 내용은 openapitools.json 의 모든 활용법을 알려드리지 않습니다. 자주 사용되는 옵션들에 대하여 알려드리고자 작성된 내용입니다.
+> 
+> 보다 다양한 옵션과 옵션별 스펙은 [**공식문서**](https://github.com/OpenAPITools/openapi-generator-cli/blob/master/apps/generator-cli/src/config.schema.json)를 참고 바랍니다.
 
-위와같은 이유로, 웹 프론트엔드에서는 아래의 명령어를 통해 OpenAPI generator cli 와 OpenAPI generator를 설치하여 개발에 활용하고 있습니다.
-
-<br>
-
-### 🔽 OpenAPI generator install
-
+```json
+{
+  "$schema": "node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  
+  /* 
+  * generator-cli: openapi-generator 를 실행시킬때 사용할 옵션을 작성하는 곳입니다. 
+  * ( 보다 상세한 옵션은 아래 표를 참고 )
+  */
+  "generator-cli": {
+    "version": "4.3.1" // or the current latest version ;)
+  }
+}
 ```
-brew install openapi-generator 
-```
 
-### 🔽 OpenAPI generator cli install
+|  |  |
+|--|--|
+|  |  |
 
-```
-yarn add -D @openapitools/openapi-generator-cli
-```
-
-<br>
-<br>
-
-## 5️⃣ TMI
-
-[**앞선 포스팅**](https://gorillakim.github.io/open-api-and-openapi/)에서 OpenAPI 는 Swagger 스팩으로부터 파생되었다고 말씀을 드렸었습니다. 때문에 이미 백엔드에서 Swagger를 사용하여 API 문서를 작성하고 있었다면, Swagger에 의해 작성된 OAS문서와OpenAPI Generator를 이용해 손쉽게 코드를 생성할 수 있습니다. 이를 통해 백엔드와 프론트엔드 개발자들은 최신 API 스펙과 일관된 코드를 유지하면서 협업을 원활하게 진행할 수 있습니다.
 
 <br>
 <br>
@@ -156,5 +156,5 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjU4NTQxOCw5MjA3NTQ1ODldfQ==
+eyJoaXN0b3J5IjpbMTAwNjg2NjYxMiw5MjA3NTQ1ODldfQ==
 -->
