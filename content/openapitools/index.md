@@ -165,11 +165,23 @@ OpenAPI Tools은 API 개발과 관련된 작업을 보다 쉽게 처리하기 �
 			output: 'ex) #{cwd}/output/v2.0/#{ext}/#{name}',
 			
 			/*
-			
+			* 사용할 `openapi.json` (=OpenAPI Specification)파일 경로 혹은 URL 을 지정합니다.
 			*/
-			inputSpec: '',
-			modelNameSuffix:'',
-			skipValidateSpec: '',
+			inputSpec: 'ex) https://dev.api.post.lever.me/openapi.json',
+
+			/*
+			* 생성되는 모델 파일명 뒤에 suffix를 달아줍니다.
+			*/
+			modelNameSuffix: 'ex) _test',
+			
+			/*
+			* 입력 사양의 유효성을 검사하는 기본 동작을 건너뜁니다.
+			*/
+			skipValidateSpec: true,
+			
+			/*
+			* 입력 사양의 유효성을 검사하는 기본 동작을 건너뜁니다.
+			*/
 			additionalProperties: {
 				/* 아래 3개 옵션은 typescript-axios option */
 				apiPackage:'',
@@ -201,6 +213,6 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4NzQ5NjMwLDczNzYzODM2OCw5MjA3NT
-Q1ODldfQ==
+eyJoaXN0b3J5IjpbLTE2OTcwOTE1MzYsNzM3NjM4MzY4LDkyMD
+c1NDU4OV19
 -->
