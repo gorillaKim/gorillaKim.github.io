@@ -14,7 +14,7 @@ categories: 블로그 알쓸코잡 라이브러리
 ## 1️⃣ 서론
 
 
-지난 [**포스팅**](https://gorillakim.github.io/openapi-generator-cli/)에서 `openapi-generator` 는 자바로 만들어진 독립적인 프로그램이라고 말씀드렸습니다. 이러한 이유 때문에 Node 개발환경에서는 `openapi-generator` 를 조작하여 사용하는것이 어렵고 이때문에 `openapi-generator-cli`를 함께 사용한다고 말씀을 드렸습니다.
+지난 [**포스팅**](https://gorillakim.github.io/openapi-generator-cli/)에서 `openapi-generator` 는 자바로 만들어진 독립적인 프로그램이라고 말씀드렸습니다. 이러한 이유 때문에 Node 개발환경에서는 `openapi-generator` 를 조작하여 사용하는것이 어렵고 이때문에 `openapi-generator-cli` 를 함께 사용한다고 말씀을 드렸습니다.
 
 `openapi-generator-cli` 를 사용하면 각종 커맨드 명령어(Command line interface) 를 통해 `openapi-generator` 를 조작이 가능하지만 명령을 내리기위한 코드가 길어지고 관리가 어렵다는 단점을 갖고 있습니다.
 
@@ -26,9 +26,9 @@ categories: 블로그 알쓸코잡 라이브러리
 
 ## 2️⃣ openapi-generator 버전 관리
 
-간혹 팀원들과 협업을 하다보면 동일한 Oepnapi spec 을 갖고 openapi-generator 를 통해 생성된 결과물이 서로 다를때가 있습니다. 해당 결과물들을 자세히 보면 띄어쓰기 혹은 interface를 표현하는 방식정도가 달라져 있는것을 볼 수 있습니다.
+간혹 팀원들과 협업을 하다보면 동일한 Oepnapi spec 을 갖고 `openapi-generator` 를 통해 생성된 결과물이 서로 다를때가 있습니다. 해당 결과물들을 자세히 보면 띄어쓰기 혹은 interface를 표현하는 방식정도가 달라져 있는것을 볼 수 있습니다.
 
-동일한 Openapi spec 을 갖고 만들었지만 결과물이 다른 이유는 openapi-generator 를 실행시킨 사용자가 서로다른 버전의 openapi-generator 를 사용했기 때문입니다.
+동일한 Openapi spec 을 갖고 만들었지만 결과물이 다른 이유는 `openapi-generator` 를 실행시킨 사용자가 서로다른 버전의 `openapi-generator` 를 사용했기 때문입니다.
 
 openapi-generator 프로그램은 지속적으로 개선되고 있는 프로젝트인데요, 이 때문에 버전에 따라 Openapi spec을 해석하는 방식또한 달라지고 있습니다.
 
@@ -94,5 +94,5 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjI3MTQ1OV19
+eyJoaXN0b3J5IjpbOTIwNzU0NTg5XX0=
 -->
