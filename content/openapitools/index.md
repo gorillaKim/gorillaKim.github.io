@@ -183,14 +183,16 @@ OpenAPI Tools은 API 개발과 관련된 작업을 보다 쉽게 처리하기 �
 			* 모델 생성시 추가적으로 사용 가능한 옵션입니다.
 			* generator 상관없이 사용 가능한 기본옵션과, 
 			* generatorName 에서 선택한 generator 에서 지원하는 부가 옵션이 있습니다.
-			* typescript-axios generator 에서 사용가능한 옵션
+			* [기본 옵션]
+			* --> https://github.com/OpenAPITools/openapi-generator/blob/master/modules/openapi-generator-maven-plugin/README.md#general-configuration-parameters
+			* [typescript-axios generator 옵션]
 			* --> https://openapi-generator.tech/docs/generators/typescript-axios/
 			*/
 			additionalProperties: {
 				/* 아래 3개 옵션은 typescript-axios option */
-				apiPackage:'',
-				modelPackage: '',
-				withSeparateModelsAndApi: ''
+				apiPackage: 'ex) output', // api를 생성할 경로
+				modelPackage: 'ex) output', // model을 생성할 경로
+				withSeparateModelsAndApi: true // api/model을 구분해서 생성할 지 여부
 			}
 		}
 	}
@@ -217,6 +219,6 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTg0OTAwNSw3Mzc2MzgzNjgsOTIwNz
+eyJoaXN0b3J5IjpbMjEwNTUxMzgxOCw3Mzc2MzgzNjgsOTIwNz
 U0NTg5XX0=
 -->
