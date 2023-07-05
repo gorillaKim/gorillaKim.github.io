@@ -94,9 +94,8 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 네, 있습니다. 심지어 매번 openapi-generator 를 설치하지 않아도 되는 방법이 있습니다!
 
-바로 가시죠! openapitools.json 활용편!
+바로 가시죠! [openapitools.json 활용편](https://gorillakim.github.io/openapitools/)!
 
-> 제작중입니다.
 
 <br>
 <br>
@@ -105,5 +104,5 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5MTY2NzE5XX0=
+eyJoaXN0b3J5IjpbLTEwMzc0NDY3MTUsOTc5MTY2NzE5XX0=
 -->
