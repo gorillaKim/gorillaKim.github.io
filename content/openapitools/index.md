@@ -14,36 +14,26 @@ categories: 블로그 알쓸코잡 라이브러리
 ## 1️⃣ 서론
 
 
-지난 [**포스팅**](https://madup.atlassian.net/wiki/spaces/CT/pages/2412413108/openapitools)에서 openapi-generator 는 자바로 만들어진 독립적인 프로그램이라고 말씀드렸습니다. 이러한 이유 때문에 Node 개발환경에서는 openapi-generator를 조작하여 사용하는것이 어렵고 이때문에 openapi-generator-cli를 함께 사용한다고 말씀을 드렸습니다.
+지난 [**포스팅**](https://gorillakim.github.io/openapi-generator-cli/)에서 `openapi-generator` 는 자바로 만들어진 독립적인 프로그램이라고 말씀드렸습니다. 이러한 이유 때문에 Node 개발환경에서는 `openapi-generator` 를 조작하여 사용하는것이 어렵고 이때문에 `openapi-generator-cli`를 함께 사용한다고 말씀을 드렸습니다.
 
-openapi-generator-cli 를 사용하면 각종 커맨드 명령어(Command line interface) 를 통해 openapi-generator 를 조작이 가능하지만 명령을 내리기위한 코드가 길어지고 관리가 어렵다는 단점을 갖고 있습니다.
+`openapi-generator-cli` 를 사용하면 각종 커맨드 명령어(Command line interface) 를 통해 `openapi-generator` 를 조작이 가능하지만 명령을 내리기위한 코드가 길어지고 관리가 어렵다는 단점을 갖고 있습니다.
 
-이러한 문제점을 해결하기 위해 openapitools.json 이라는것이 존재하는데요, 이게 무엇이고 어떻게 사용하는지 지금부터 살펴보겠습니다.
-
-<br>
-<br>
-
-## 2️⃣ OpenAPI generator
-
-[**앞선 포스팅**](https://gorillakim.github.io/open-api-and-openapi/)에서 OpenAPI 와 OpenAPI를 만든 OpenAPI Initiative에 대해서 언급한적이 있었습니다.
-
-OpenAPI Generator는 OpenAPI Initiative 에 의해 시작된 프로젝트중 하나로서, Java로 개발된 독립 실행형 도구입니다. 이 도구를 사용하면 다양한 프로그래밍 언어로 작성된 API 클라이언트 라이브러리, 서버 스켈레톤 코드, 데이터 모델 등을 자동으로 생성할 수 있습니다.
-
-OpenAPI Generator는 미리 정의된 [**Generator**](https://openapi-generator.tech/docs/generators)라 불리는 템플릿과 코드 생성기를 사용하여 OpenAPI 스펙을 분석하고 코드를 생성합니다. 이렇게 생성된 코드는 개발자가 API 호출 함수를 사용하거나 구현할 때 기반으로 사용됩니다.
-
-> [Geneartor 종류](https://openapi-generator.tech/docs/generators)에 따라 다양한 output(Java, Kotlin, typescript, etc.)을 만들 수 있습니다.
-> 
-> 웹 프론트 에서는 [**typescript-axios**](https://openapi-generator.tech/docs/generators/typescript-axios)  나 [**typescript-fetch**](https://openapi-generator.tech/docs/generators/typescript-fetch) 를 주로 사용합니다
-
-웹 프론트엔드 에서는 주로 [**typescript-axios**](https://openapi-generator.tech/docs/generators/typescript-axios)  나 [**typescript-fetch**](https://openapi-generator.tech/docs/generators/typescript-fetch)  라는 generator를 활용하고 있습니다.
-
-그 이유는, 이를 통해 자동으로 생성된 API 인터페이스와 API 호출 함수를 통해 백엔드와 프론트엔드 간의 주고받는 데이터들의 타입을 유지할수 있기 때문입니다.
+이러한 문제점을 해결하기 위해 `openapitools.json` 이라는것이 존재하는데요, 이게 무엇이고 어떻게 사용하는지 지금부터 살펴보겠습니다.
 
 <br>
+<br>
 
-### ✅ 요약
 
-OpenAPI Generator는 OpenAPI(Swagger) 스펙을 기반으로 API 클라이언트나 서버 코드를 자동으로 생성해주는 도구입니다.
+## 2️⃣ openapi-generator 버전 관리
+
+간혹 팀원들과 협업을 하다보면 동일한 Oepnapi spec 을 갖고 openapi-generator 를 통해 생성된 결과물이 서로 다를때가 있습니다. 해당 결과물들을 자세히 보면 띄어쓰기 혹은 interface를 표현하는 방식정도가 달라져 있는것을 볼 수 있습니다.
+
+동일한 Openapi spec 을 갖고 만들었지만 결과물이 다른 이유는 openapi-generator 를 실행시킨 사용자가 서로다른 버전의 openapi-generator 를 사용했기 때문입니다.
+
+openapi-generator 프로그램은 지속적으로 개선되고 있는 프로젝트인데요, 이 때문에 버전에 따라 Openapi spec을 해석하는 방식또한 달라지고 있습니다.
+
+이러한 문제 때문에 `@openapitools/openapi-generator-cli` 버전 2.xx 이상부터는 openapi-generator 버전관리 기능이 패키지에 추가가 되었습니다.
+
 
 <br>
 <br>
@@ -104,5 +94,5 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA1MTcyMThdfQ==
+eyJoaXN0b3J5IjpbMTA5MjI3MTQ1OV19
 -->
