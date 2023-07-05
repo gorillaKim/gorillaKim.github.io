@@ -36,7 +36,7 @@ openapi-generator 프로그램은 지속적으로 개선되고 있는 프로젝�
 
 ![enter image description here](https://github.com/OpenAPITools/openapi-generator-cli/blob/master/img/vm.gif?raw=true)
 
-아래의 명령어를 통해 openapi-generator 패키지 조회가 가능합니다.
+아래의 명령어를 통해 `openapi-generator` 패키지 조회가 가능합니다.
 
 ```shell
 // Openapi-generator 패키지 리스트 조회
@@ -59,9 +59,50 @@ npx openapi-generator-cli version-manager set 4 stable
 <br>
 <br>
 
-## 3️⃣ OpenAPI generator cli
 
-**OpenAPI Generator CLI** 는 OpenAPI Generator의 명령 프롬프트 인터페이스(Command Line Interface 이하 CLI) 버전입니다. OpenAPI Generator CLI를 사용하면 터미널이나 명령 프롬프트에서 CLI명령어를 입력하여 OpenAPI generator 를 실행시켜 코드를 생성하는 것이 가능합니다. 이를 통해 개발자는 자동 코드 생성 기능을 쉽게 사용할 수 있으며, CI/CD 파이프라인이나 스크립트 등에서도 사용할 수 있습니다. OpenAPI Generator CLI 는 개발자들에게 더 큰 유연성과 편의성을 제공하여 코드 생성 및 관리 작업을 자동화할 수 있게 해줍니다.
+## 3️⃣ openapitools.json 이란?
+
+`openapitools.json` 은 `openapi-generator` 를 사용하기 위한 일종의 config 파일인데요, 해당 파일에서 사용할 `openapi-generator` 에 대한 버전명시 뿐 아니라 생성된 파일이 저장될 경로등 다양한 설정을 구성하실 수 있습니다.
+
+공식 깃헙 사이트를 방문해 보면, `opeanpitools.json` 에 대한 예제코드가 다음과 같이 나와 있습니다.
+
+```json
+{
+  "$schema": "node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "4.3.1",
+    "storageDir": "~/my/custom/storage/dir", // optional
+    "generators": { // optional
+      "v2.0": { // any name you like (just printed to the console log or reference it using --generator-key) 
+        "generatorName": "typescript-angular",
+        "output": "#{cwd}/output/v2.0/#{ext}/#{name}",
+        "glob": "examples/v2.0/{json,yaml}/*.{json,yaml}",
+        "additionalProperties": {
+          "ngVersion": "6.1.7",
+          "npmName": "restClient",
+          "supportsES6": "true",
+          "npmVersion": "6.9.0",
+          "withInterfaces": true
+        }
+      },
+      "v3.0": { // any name you like (just printed to the console log or reference it using --generator-key) 
+        "generatorName": "typescript-fetch",
+        "output": "#{cwd}/output/v3.0/#{ext}/#{name}",
+        "glob": "examples/v3.0/petstore.{json,yaml}"
+      }
+    }
+  }
+}
+```
+
+OpenAPI Tools은 API 개발과 관련된 작업을 보다 쉽게 처리하기 위한 유용한 도구입니다. 그 중 하나인 `openapitools.json` 파일은 `openapi-generator` 를 사용하기 위한 옵션들을 구성하고 관리하는 데 사용되는 파일입니다.
+
+그러나 아쉽게도 [**공식 문서**](https://github.com/OpenAPITools/openapi-generator-cli#configuration)에서는 `openapitools.json` 사용 방법에 대한 자세한 내용이 부족한 상황입니다. 예제 코드에 대한 설명이나 다른 가능한 옵션들에 대한 정보도 찾기 어려울 수 있습니다. 이러한 이유로 `openapitools.json` 을 보다 효율적으로 활용하기 위해 저희는 스터디를 진행하게 되었습니다.
+
+`openapitools.json` 은 결국 `openapi-generator` 를 조작하기 위한 설정 파일로서, `openapi-generator-cli` 에 구성된 다양한 옵션들을 활용하고 있습니다. 따라서 우리는 [**openapi-generator의 공식 문서**](https://openapi-generator.tech/docs/usage/#generate) 와 [**openapi-generator-cli-shcema 파일**](https://github.com/OpenAPITools/openapi-generator-cli/blob/master/apps/generator-cli/src/config.schema.json) 참고하여 `openapitools.json` 을 최대한 활용하는 방법을 찾아냈습니다.
+
+이 스터디를 통해 openapitools.json의 다양한 옵션들과 그 활용 방법에 대한 이해를 높일 수 있었습니다. 더 나아가 API 개발을 보다 효율적으로 수행할 수 있도록 예제 코드와 함께 옵션들에 대한 상세한 설명을 블로그에 공유하고자 합니다. 이를 통해 개발자들이 openapitools.json을 더욱 아름답게 활용할 수 있도록 돕고자 합니다.
 
 <br>
 <br>
@@ -115,5 +156,5 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTA3MjgwNDIsOTIwNzU0NTg5XX0=
+eyJoaXN0b3J5IjpbMTMyMjU4NTQxOCw5MjA3NTQ1ODldfQ==
 -->
