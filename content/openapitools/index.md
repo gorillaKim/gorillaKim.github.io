@@ -154,9 +154,19 @@ OpenAPI Tools은 API 개발과 관련된 작업을 보다 쉽게 처리하기 �
 	generators: {
 		[name]: { // 어떤 이름도 들어올 수 있음
 			/*
-*/
-			generatorName: '',
-			output: '',
+			* 생성할 api/model 언어 및 모듈 지정합니다.
+			* https://openapi-generator.tech/docs/generators/
+			*/
+			generatorName: 'ex) typescript-axios',
+			
+			/*
+			* generator 를 통해 생성된 파일을 저장할 경로
+			*/
+			output: 'ex) #{cwd}/output/v2.0/#{ext}/#{name}',
+			
+			/*
+			
+			*/
 			inputSpec: '',
 			modelNameSuffix:'',
 			skipValidateSpec: '',
@@ -191,6 +201,6 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM2OTYyMzAsNzM3NjM4MzY4LDkyMD
-c1NDU4OV19
+eyJoaXN0b3J5IjpbNTU4NzQ5NjMwLDczNzYzODM2OCw5MjA3NT
+Q1ODldfQ==
 -->
