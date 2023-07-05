@@ -147,7 +147,12 @@ OpenAPI Tools은 API 개발과 관련된 작업을 보다 쉽게 처리하기 �
 	*/
 	storageDir: "ex) ~/my/custom/storage/dir", 
 
-	generators
+	/* 필수값이 아닙니다. 
+	* openapi-generator-cli version 은 2.5.x 버전부터 사용가능한 옵션입니다.
+	*/
+	generators: {
+
+	}
 }
 ```
 
@@ -171,6 +176,6 @@ _“프론트엔드에서 웹 애플리케이션을 만들때 각종 옵션들�
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MzMyOTM1MCw3Mzc2MzgzNjgsOTIwNz
-U0NTg5XX0=
+eyJoaXN0b3J5IjpbLTIxMDk1NjE0NzUsNzM3NjM4MzY4LDkyMD
+c1NDU4OV19
 -->
