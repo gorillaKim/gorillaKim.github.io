@@ -19,7 +19,7 @@ categories: 일상
 
 ### 사내 서비스 배포
 자세하게 이야기는 못드리지만, 사내 고객들을 위해 사용될 서비스 배포를 위해 밤낮, 평일 주말 할것없이 정신없이 일에 몰두 했던것 같습니다. 뭔가 고객에게 서비스 될거라는 생각에 욕심이 생겨 개인시간도 더 투자해서 일했던것 같아요.
-다행이도, 지금까지 별다른 오류없이 잘 사용하고 계신것 같아 내심 뿌듯해하고 있습니다.
+다행히도, 지금까지 별다른 오류없이 잘 사용하고 계신것 같아 내심 뿌듯해하고 있습니다.
 
 ### 기타 잡다한 개발시도
 블로그에 작성한것도 있지만, 그간 여러가지 새로운 개발시도를 했습니다. 
@@ -58,6 +58,6 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjM0ODU0Myw4NDYwNDU5OTcsLTEwND
-QwMjI0MDEsMTQ4NzYzNDM0NywxNTk2Nzg5MTgzXX0=
+eyJoaXN0b3J5IjpbODkwMjY5MDM1LDg0NjA0NTk5NywtMTA0ND
+AyMjQwMSwxNDg3NjM0MzQ3LDE1OTY3ODkxODNdfQ==
 -->
