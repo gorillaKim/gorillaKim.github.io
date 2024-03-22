@@ -1,7 +1,7 @@
 ---
 emoji: ✍️
 title: “주간 일상공유 - 2024 03 넷째주”  
-date: ‘2024-03-22 18:30:00’  
+date: 2023-03-22 18:30:00
 author: gorillaKim
 tags: weekly 일상 근황  
 categories: 일상
@@ -58,6 +58,6 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzM2MDIxNSwtMTA0NDAyMjQwMSwxND
-g3NjM0MzQ3LDE1OTY3ODkxODNdfQ==
+eyJoaXN0b3J5IjpbLTIxMzU4MTQ2NzUsLTEwNDQwMjI0MDEsMT
+Q4NzYzNDM0NywxNTk2Nzg5MTgzXX0=
 -->
