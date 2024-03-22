@@ -33,7 +33,7 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 어느정도 손에익어 괜찮은 프로덕트가 나오게 되면, 해당 내용도 블로그로 작성해 볼 예정이에요.
 
 
-## 🤿 사생활 
+## 🤿 사생활
 저에겐 남들 몰래 틈틈이 제 개인 버킷리스트를 채우는 취미가 있습니다. 제 버킷리스트에는 거창한게 있지는 않고, 주로 제가 경험해보지 못했던 것들로 채워져 있습니다. 
 
 제작년에는 스노우보드와 서핑보드를 처음 배웠고,  혼자 야간등산을 다녀왔습니다. 올해는 제 버킷리스트속 "바다에서 상어만나기" 를 실천했습니다. 바다속에서 상어와 직접 미팅을 잡으려면 거쳐야 하는 절차가 적지는 않았습니다 ㅎㅎ...
@@ -60,7 +60,7 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0NTk0NjQ1LDE0MDA0MTYwMzgsODQ2MD
-Q1OTk3LC0xMDQ0MDIyNDAxLDE0ODc2MzQzNDcsMTU5Njc4OTE4
-M119
+eyJoaXN0b3J5IjpbMTg5NDM5MzM4OSwxNDAwNDE2MDM4LDg0Nj
+A0NTk5NywtMTA0NDAyMjQwMSwxNDg3NjM0MzQ3LDE1OTY3ODkx
+ODNdfQ==
 -->
