@@ -7,6 +7,7 @@ tags: weekly 일상 근황
 categories: 일상 2024
 ---
 
+> 주의
 
 ## 그간 개발 근황
 ### 승진
@@ -25,7 +26,10 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 
 ### 스터디
 앱개발에도 관심이 있던터라 2021 년부터 serviceworker 를 이용한 프로그레시브 웹앱도 공부를 계속하고 있었어요. (덕분에 msw를 일찍 접하고 잘 사용하고 있구요)
-이번에는 구글에서 만든 dart 라는 언어를 이용해 fluu
+
+이번에는 구글에서 만든 dart 라는 언어와 flutter 프레임워크를 이용해 앱개발에도 도전하고 있습니다.
+
+어느정도 손에익어 괜찮은 프로덕트가 나오게 되면, 해당 내용도 블로그로 작성해 볼 예정이에요.
 
 
 ## 사생활 ㅎㅎ
@@ -48,6 +52,6 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 소리가 차단된 고요한 바닷속, 마치 하늘을 나는듯한 거북이와 물고기떼를 보면 새로운 세계에 초대받아 놀러온 느낌이 듭니다. 마치 내가 피터펜이 된것처럼 물속을 날아다니며 해양생물을 관찰하는 재미가 솔솔합니다.
 자주 가지는 못하겠지만, 연례 행사로 한번씩은 다닐것 같네요 ㅎㅎ.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDIxNTIwNiw5NTkzMzA3OTMsMTA5ND
+eyJoaXN0b3J5IjpbMTIyMzQ3NjU5OCw5NTkzMzA3OTMsMTA5ND
 I0NTE4NV19
 -->
