@@ -20,8 +20,8 @@ categories: 일상 2024
 다행이도, 지금까지 별다른 오류없이 잘 사용하고 계신것 같아 내심 뿌듯해하고 있습니다.
 
 ### 기타 잡다한 개발시도
-블로그에 작성한것도 있지만, 그
-openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디자인시스템 구축까지 여러가지 다양한 경험들을 했습니다. 일부는 사내 블로그에만 기제를 해둬서 시간이 될때 개인 블로그에도 공유를 해보겠습니다.
+블로그에 작성한것도 있지만, 그간 여러가지 새로운 개발시도를 했습니다. 
+openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디자인시스템 구축까지 여러가지를 경험했고 대부분 . 일부는 사내 블로그에만 기제를 해둬서 시간이 될때 개인 블로그에도 공유를 해보겠습니다.
 
 
 ## 사생활 ㅎㅎ
@@ -44,6 +44,6 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 소리가 차단된 고요한 바닷속, 마치 하늘을 나는듯한 거북이와 물고기떼를 보면 새로운 세계에 초대받아 놀러온 느낌이 듭니다. 마치 내가 피터펜이 된것처럼 물속을 날아다니며 해양생물을 관찰하는 재미가 솔솔합니다.
 자주 가지는 못하겠지만, 연례 행사로 한번씩은 다닐것 같네요 ㅎㅎ.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzIxNDI4MzYsOTU5MzMwNzkzLDEwOT
-QyNDUxODVdfQ==
+eyJoaXN0b3J5IjpbMTQzNjI5MzQ0Myw5NTkzMzA3OTMsMTA5ND
+I0NTE4NV19
 -->
