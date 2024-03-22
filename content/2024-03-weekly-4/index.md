@@ -20,10 +20,11 @@ categories: 일상 2024
 ## 사생활 ㅎㅎ
 저에겐 남들 몰래 틈틈이 제 개인 버킷리스트를 채우는 취미가 있습니다. 제 버킷리스트에는 거창한게 있지는 않고, 주로 제가 경험해보지 못했던 것들에 대한 내용들로 채워져 있습니다. 
 
-제작년에는 스노우보드와 서핑보드를 처음 배웠고, 작년에는 혼자 야간등산을 다녀왔
+제작년에는 스노우보드와 서핑보드를 처음 배웠고,  혼자 야간등산을 다녀왔습니다. 올해는 제 버킷리스트속 "바다에서 상어만나기" 를 실천했습니다. 바다속에서 상어와 직접 미팅을 잡으려면 거쳐야 하는 절차가 적지는 않았습니다 ㅎㅎ...
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDkzMzI3NzUsOTU5MzMwNzkzLDEwOT
+eyJoaXN0b3J5IjpbLTExMzUzNjA5NzMsOTU5MzMwNzkzLDEwOT
 QyNDUxODVdfQ==
 -->
