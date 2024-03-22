@@ -33,7 +33,7 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 어느정도 손에익어 괜찮은 프로덕트가 나오게 되면, 해당 내용도 블로그로 작성해 볼 예정이에요.
 
 
-## 사생활 ㅎㅎ
+## 🤿 사생활 
 저에겐 남들 몰래 틈틈이 제 개인 버킷리스트를 채우는 취미가 있습니다. 제 버킷리스트에는 거창한게 있지는 않고, 주로 제가 경험해보지 못했던 것들로 채워져 있습니다. 
 
 제작년에는 스노우보드와 서핑보드를 처음 배웠고,  혼자 야간등산을 다녀왔습니다. 올해는 제 버킷리스트속 "바다에서 상어만나기" 를 실천했습니다. 바다속에서 상어와 직접 미팅을 잡으려면 거쳐야 하는 절차가 적지는 않았습니다 ㅎㅎ...
@@ -47,7 +47,7 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 
 ### 2. 말레이시아 시파단!
 자격증을 따고나서 상어보자고 말레이시아까지 와버렸고, 시파단에서 그동안 원했던 상어님과의 미팅에 성공하였습니다. 
-> 1:1 미팅이 아니라 몇십마리와 한거 같아요 
+> 1:1 미팅이 아니라 몇십마리와 한거 같아요 🦈
 
 ### 느낀점
 우선 비싼 취미구나를 느꼈습니다 ㅋㅋㅋㅋ 생각보다 돈이 많이 들어가는 스포츠더라구요...
@@ -60,7 +60,7 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEzNzE5MDIsMTQwMDQxNjAzOCw4ND
-YwNDU5OTcsLTEwNDQwMjI0MDEsMTQ4NzYzNDM0NywxNTk2Nzg5
-MTgzXX0=
+eyJoaXN0b3J5IjpbODk0NTk0NjQ1LDE0MDA0MTYwMzgsODQ2MD
+Q1OTk3LC0xMDQ0MDIyNDAxLDE0ODc2MzQzNDcsMTU5Njc4OTE4
+M119
 -->
