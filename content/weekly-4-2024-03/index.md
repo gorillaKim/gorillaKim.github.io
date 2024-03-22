@@ -1,7 +1,7 @@
 ---
 emoji: ✍️
-title: “주간 일상공유 - 2024 03 넷째주”  
-date: 2023-03-22 18:30:00
+title: "주간 일상공유 - 2024 03 넷째주"  
+date: '2023-03-22 18:30:00'
 author: gorillaKim
 tags: weekly 일상 근황
 categories: 일상
