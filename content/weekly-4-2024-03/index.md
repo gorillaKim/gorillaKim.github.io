@@ -46,7 +46,7 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 > 휴가가 아까워 제주도 10바퀴는 돈듯! (개인 맛집지도를 만들정도!)
 
 ### 2. 말레이시아 시파단!
-자격증을 따고 상어보자고 말레이시아까지 와버렸고, 시파단에서 그동안 원했던 상어님과 N:1 미팅에 성공하였습니다. ( 물론 제가 1이에요 )
+자격증을 따고나서 상어보자고 말레이시아까지 와버렸고, 시파단에서 그동안 원했던 상어님과 N:1 미팅에 성공하였습니다. ( 물론 제가 1이에요 )
 
 ### 느낀점
 우선 비싼 취미구나를 느꼈습니다 ㅋㅋㅋㅋ 생각보다 돈이 많이 들어가는 스포츠더라구요...
@@ -59,7 +59,7 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTA1MTUwNSwxNDAwNDE2MDM4LDg0Nj
-A0NTk5NywtMTA0NDAyMjQwMSwxNDg3NjM0MzQ3LDE1OTY3ODkx
-ODNdfQ==
+eyJoaXN0b3J5IjpbNzU3MDI4NDA1LDE0MDA0MTYwMzgsODQ2MD
+Q1OTk3LC0xMDQ0MDIyNDAxLDE0ODc2MzQzNDcsMTU5Njc4OTE4
+M119
 -->
