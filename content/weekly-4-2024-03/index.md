@@ -39,7 +39,7 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 제작년에는 스노우보드와 서핑보드를 처음 배웠고,  혼자 야간등산을 다녀왔습니다. 올해는 제 버킷리스트속 "바다에서 상어만나기" 를 실천했습니다. 바다속에서 상어와 직접 미팅을 잡으려면 거쳐야 하는 절차가 적지는 않았습니다 ㅎㅎ...
 
 ### 1. 스쿠버다이빙 자격증 취득
-상어 요녀석들은 보통 물살이 강하고 깊은 수심에서 논다고 합니다. 그래서 산소통 없이는 만날수가 없어 스쿠버 다이빙 자격증이 필요했습니다.
+상어 요녀석들은 보통 물살이 강하고 깊은 수심에서 논다고 합니다. 그래서 산소통 없이는 만날수가 없어 스쿠버 다이빙 자격증을 따기로 했습니다.
 
 그래서 오픈워터라는 자격증을 취득했는데, 상어가 있는 깊이까지 가려면 어드벤스드 자격증이 필요하다하여... 6개월이라는 시간에 걸쳐 어드벤스드를 취득했습니다.
 > 스쿠버 다이빙 자격증 딴다고 제주도를 제일 많이갔던 한해였던것 같아요 😹
@@ -58,6 +58,7 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDQxNjAzOCw4NDYwNDU5OTcsLTEwND
-QwMjI0MDEsMTQ4NzYzNDM0NywxNTk2Nzg5MTgzXX0=
+eyJoaXN0b3J5IjpbMzQwMTg4MTA2LDE0MDA0MTYwMzgsODQ2MD
+Q1OTk3LC0xMDQ0MDIyNDAxLDE0ODc2MzQzNDcsMTU5Njc4OTE4
+M119
 -->
