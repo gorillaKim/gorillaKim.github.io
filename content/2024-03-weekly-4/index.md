@@ -5,13 +5,13 @@ author: gorillaKim
 tags: weekly 일상 근황  
 categories: 일상 2024
 
-## 근황
 
-## 목표
+## 이전 근황
+
 
 ## 관심사
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDI0NTE4NV19
+eyJoaXN0b3J5IjpbMTQ2NDAyMDk2MiwxMDk0MjQ1MTg1XX0=
 -->
