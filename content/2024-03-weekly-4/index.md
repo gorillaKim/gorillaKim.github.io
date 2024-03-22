@@ -12,12 +12,12 @@ categories: 일상 2024
 바쁘다는 핑계아닌 핑계로.. ㅎㅎ 개인 블로그 관리를 소홀히 한것 같습니다.
 앞으로는 정리된 내용이 아니더라도 근황글이라도 틈틈이 공유해보려고 합니다.
 
-작년 한해동안 개발적으로는 여러가지 다양한 경험들을 했습니다. 모노레포를 위한 federation 부터, msw, 
+작년 한해동안 개발적으로는 여러가지 다양한 경험들을 했습니다. 모노레포, 목업 테스트환경 구축, 
 
 
 ## 관심사
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2Njg4MzExLDEwOTQyNDUxODVdfQ==
+eyJoaXN0b3J5IjpbOTU5MzMwNzkzLDEwOTQyNDUxODVdfQ==
 -->
