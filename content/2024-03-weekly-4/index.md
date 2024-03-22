@@ -1,9 +1,11 @@
-## emoji: ✍️  
+---
+emoji: ✍️
 title: “2024-03-weekly-4”  
 date: ‘2024-03-22 18:30:00’  
-author: gorillaKim  
+author: gorillaKim
 tags: weekly 일상 근황  
 categories: 일상 2024
+---
 
 
 ## 그간 근황
@@ -19,5 +21,6 @@ categories: 일상 2024
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MzMwNzkzLDEwOTQyNDUxODVdfQ==
+eyJoaXN0b3J5IjpbLTEwMjE5MDk3NTcsOTU5MzMwNzkzLDEwOT
+QyNDUxODVdfQ==
 -->
