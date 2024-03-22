@@ -7,7 +7,8 @@ tags: weekly 일상 근황
 categories: 일상 2024
 ---
 
-> 주의
+> ⚠️ 주의 ⚠️  
+> 블로그 주인의 나태함으로 인해 이번글은 다소 근황내용이 많습니다.
 
 ## 그간 개발 근황
 ### 승진
@@ -52,6 +53,6 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 소리가 차단된 고요한 바닷속, 마치 하늘을 나는듯한 거북이와 물고기떼를 보면 새로운 세계에 초대받아 놀러온 느낌이 듭니다. 마치 내가 피터펜이 된것처럼 물속을 날아다니며 해양생물을 관찰하는 재미가 솔솔합니다.
 자주 가지는 못하겠지만, 연례 행사로 한번씩은 다닐것 같네요 ㅎㅎ.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzQ3NjU5OCw5NTkzMzA3OTMsMTA5ND
+eyJoaXN0b3J5IjpbMTU5Njc4OTE4Myw5NTkzMzA3OTMsMTA5ND
 I0NTE4NV19
 -->
