@@ -43,6 +43,7 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 
 그래서 오픈워터라는 자격증을 취득했는데, 상어가 있는 깊이까지 가려면 어드벤스드 자격증이 필요하다하여... 총, 6개월이라는 시간에 걸쳐 어드벤스드를 취득했습니다.
 > 스쿠버 다이빙 자격증 딴다고 제주도를 제일 많이갔던 한해였던것 같아요 😹
+> 휴가가 아까워 제주도 10바퀴는 돈듯! (개인 맛집지도를 만들정도!)
 
 ### 2. 말레이시아 시파단!
 자격증을 따고 상어보자고 말레이시아까지 와버렸고, 시파단에서 그동안 원했던 상어님과 N:1 미팅에 성공하였습니다. ( 물론 제가 1이에요 )
@@ -58,7 +59,7 @@ openapi-generator, msw, 모노레포, figma to icons 라이브러리 제작, 디
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODM5ODE0MywxNDAwNDE2MDM4LDg0Nj
+eyJoaXN0b3J5IjpbMTkyOTA1MTUwNSwxNDAwNDE2MDM4LDg0Nj
 A0NTk5NywtMTA0NDAyMjQwMSwxNDg3NjM0MzQ3LDE1OTY3ODkx
 ODNdfQ==
 -->
